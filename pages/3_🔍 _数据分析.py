@@ -299,7 +299,7 @@ with st.container():
         with st.container():
             col1, col2 = st.columns([3, 1])  # 分割屏幕空间，热力图占3/4，饼图及筛选器占1/4
             with col1:
-                df_location = pd.read_csv('locations.csv')
+                df_location = pd.read_csv('locations.CSV')
 
                 # 将省份名称转换为你的数据中相对应的名称
                 df_location.rename(columns={'省份': 'Province', '经度': 'Longitude', '维度': 'Latitude'}, inplace=True)
