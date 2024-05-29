@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # 数据库连接
-DATABASE_URI = 'mysql+pymysql://root:198881@localhost/AnalysisDB'
+DATABASE_URI = 'mysql+pymysql://root:G1988818god@rm-cn-bl03rfdi90002xho.rwlb.rds.aliyuncs.com/analysisdb'
 engine = create_engine(DATABASE_URI)
 
 st.title("📈 数据概览")
