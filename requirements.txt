@@ -1,4 +1,4 @@
-mysql-connector-python
+mysql-connector-python==8.4.0
 altair==5.2.0
 ansi2html==1.8.0
 asgiref==3.7.2
