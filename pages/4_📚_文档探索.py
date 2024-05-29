@@ -93,7 +93,7 @@ def generate_wordcloud(keywords_df):
                 keywords_dict[keyword] = weight
     # st.dataframe(keywords_dict)
     # 指定微软雅黑字体路径以支持中文
-    font_path = 'f.ttf'
+    font_path = 'msyh.ttc'
     wordcloud = WordCloud(width=800, height=400, background_color='white', font_path=font_path).generate_from_frequencies(keywords_dict)
 
     # 创建一个图形对象
