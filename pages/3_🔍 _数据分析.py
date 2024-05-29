@@ -11,7 +11,7 @@ import streamlit.components.v1 as components
 import plotly.graph_objects as go
 
 # 数据库连接配置
-DATABASE_URI = 'mysql+pymysql://root:198881@localhost/AnalysisDB'
+DATABASE_URI = 'mysql+pymysql://root:G1988818god@rm-cn-bl03rfdi90002xho.rwlb.rds.aliyuncs.com/analysisdb'
 engine = create_engine(DATABASE_URI)
 
 # 页面布局
